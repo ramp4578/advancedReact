@@ -2,6 +2,7 @@ import { useState } from 'react'
 import data from './data'
 import List from './List'
 function App() {
+  //use state added over here
   const [people, setPeople] = useState(data)
   return (
     <main>
